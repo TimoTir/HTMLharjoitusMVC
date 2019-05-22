@@ -6,10 +6,20 @@ using System.Web.Mvc;
 
 namespace HTMLharjoitusMVC.Controllers
 {
-    public class Harjoitus1Controller : Controller
+    public class MyWebSiteController : Controller
     {
         // GET: Harjoitus1
         public ActionResult Index()
+        {
+            return View();
+        }
+
+        public ActionResult Table()
+        {
+            return View();
+        }
+
+        public ActionResult Time()
         {
             return View();
         }
