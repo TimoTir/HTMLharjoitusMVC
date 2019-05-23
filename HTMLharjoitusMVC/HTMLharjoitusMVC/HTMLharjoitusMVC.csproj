@@ -138,6 +138,9 @@
     <Content Include="Content\Site.css" />
     <Content Include="Images\colorsimg.jpg" />
     <Content Include="Images\colorsimg2.jpg" />
+    <Content Include="Images\CssSnip.PNG" />
+    <Content Include="Images\HtmlSnip.PNG" />
+    <Content Include="Images\JavascriptSnip.PNG" />
     <Content Include="Images\welding1.2.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
