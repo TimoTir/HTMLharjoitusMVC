@@ -30,6 +30,8 @@
     #mySidebar {
         background-image: url('../../Images/colorsimg2.jpg');
     }
+
+
         
 </style>
 
@@ -48,7 +50,7 @@
             <a href="#html" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">HTML</a>
             <a href="#css" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">CSS</a>
             <a href="#javascript" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Javascript</a>
-            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
+            <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Yhteystiedot</a>
             <a href="https://www.w3schools.com/default.asp"target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">W3Schools</a>
             <a href="https://www.careeria.fi"target="_blank" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Careeria</a>
         </div>
@@ -68,7 +70,7 @@
 
         <!-- Header -->
         <div class="w3-container" style="margin-top:80px" id="pics">
-            <h1 class="w3-jumbo"><b>MyWebSite</b></h1>
+            <h1 class="w3-jumbo"><b> MyWebSite </b></h1>
             <h1 class="w3-xxxlarge w3-text-red"><b>Pics.</b></h1>
             <hr style="width:50px;border:5px solid red" class="w3-round">
         </div>
@@ -76,16 +78,15 @@
         <!-- Photo grid (modal) -->
         <div class="w3-row-padding">
             <div class="w3-half">
-                <img src="~/images/colorsimg.jpg" style="width:100%" onclick="onClick(this)" alt="colors">
-                <img src="~/images/welding1.jpg" style="width:100%" onclick="onClick(this)" alt="welding1">
-                <img src="~/images/nature1.jpg" style="width:100%" onclick="onClick(this)" alt="nature1">
+                <img src="~/images/splash1.2.jpg" style="width:100%" onclick="onClick(this)" alt="splash">
+                <img src="~/images/welding1.2.jpg" style="width:100%" onclick="onClick(this)" alt="welding1">
+                <img src="~/images/nature1.2.jpg" style="width:100%" onclick="onClick(this)" alt="nature1">
             </div>
 
             <div class="w3-half">
-                <img src="~/images/nature2.jpg" style="width:100%" onclick="onClick(this)" alt="nature2">
-                <img src="~/images/nature3.jpg" style="width:100%" onclick="onClick(this)" alt="nature3">
-                <img src="~/images/welding2.jpg" style="width:100%" onclick="onClick(this)" alt="welding2">
-                <img src="~/images/splash1.jpg" style="width:100%" onclick="onClick(this)" alt="splash">
+                <img src="~/images/nature2.2.jpg" style="width:100%" onclick="onClick(this)" alt="nature2">
+                <img src="~/images/nature3.2.jpg" style="width:100%" onclick="onClick(this)" alt="nature3">
+                <img src="~/images/welding2.2.jpg" style="width:100%" onclick="onClick(this)" alt="welding2">
             </div>
         </div>
 
@@ -110,7 +111,10 @@
                 Sisältö voi olla tekstiä, taulukoita, linkkejä, kuvia, videota, ääntä, jne.
                 Merkittävä HTML:n ominaisuus on myös lomakkeet, jotka ovat usein yhteydessä tietokantoihin tai muihin taustajärjestelmiin,
                 mahdollistaen näin interaktiivisen toiminnan kuten hakujen suorittamisen ja ostosten tekemisen.
+
             </p>
+            <a href="https://www.w3schools.com/html/default.asp"><button @*type="submit"*@ class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Täältä löydät HTML harjoituksia</button></a>
+
         </div>
 
         <!-- Designers -->
@@ -131,7 +135,8 @@
                 Tyylisivuista on tunnettu käytettävyysasiantuntija Jacob Nielsen sanonut mm. seuraavaa:
                 “Hopefully, future Web innovations will emulate the example set by the Web Consortium in its work on CSS”.
             </p>
-            @*<p><b>Our designers are thoughtfully chosen</b>:</p>*@
+
+            <a href="https://www.w3schools.com/css/default.asp"><button @*type="submit"*@ class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Täältä löydät CSS harjoituksia</button></a>
         </div>
 
         <!-- The Team -->
@@ -183,6 +188,7 @@
 
                 JavaScript -kielen kehitti aikoinaan Netscape -yhtiön palveluksessa ollut Brendan Eich, ja hän on edelleen kielen kehityksessä mukana.
             </p>
+            <a href="https://www.w3schools.com/js/default.asp" target="_blank"><button @*type="submit"*@ class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Javascript harjoituksia</button></a>
             <p><b>Esimerkkejä Html, Css ja Javascript koodeista</b>:</p>
         </div>
 
@@ -201,7 +207,7 @@
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <img src="~/Images/CssSnip.PNG"  style="width:100%" onclick="onClick(this)" alt="Css koodi">
+                    <img src="~/Images/CssSnip.PNG" style="width:100%" onclick="onClick(this)" alt="Css koodi">
                     <div class="w3-container">
                         <h3>Css</h3>
                         @*<p class="w3-opacity">Designer</p>*@
@@ -211,7 +217,7 @@
             </div>
             <div class="w3-col m4 w3-margin-bottom">
                 <div class="w3-light-grey">
-                    <img src="~/Images/JavascriptSnip.PNG"  style="width:100%" onclick="onClick(this)" alt="Javascript koodi">
+                    <img src="~/Images/JavascriptSnip.PNG" style="width:100%" onclick="onClick(this)" alt="Javascript koodi">
                     <div class="w3-container">
                         <h3>Javascript</h3>
                         @*<p class="w3-opacity">Architect</p>*@
@@ -261,23 +267,23 @@
 
         <!-- Contact -->
         <div class="w3-container" id="contact" style="margin-top:75px">
-            <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
+            <h1 class="w3-xxxlarge w3-text-red"><b>Yhteystiedot.</b></h1>
             <hr style="width:50px;border:5px solid red" class="w3-round">
-            <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+            <p>Täältä voi kysellä kaikenlaista lisätietoa! :)</p>
             <form action="/action_page.php" target="_blank">
                 <div class="w3-section">
-                    <label>Name</label>
+                    <label>Nimi</label>
                     <input class="w3-input w3-border" type="text" name="Name" required>
                 </div>
                 <div class="w3-section">
-                    <label>Email</label>
+                    <label>Sähköposti</label>
                     <input class="w3-input w3-border" type="text" name="Email" required>
                 </div>
                 <div class="w3-section">
-                    <label>Message</label>
+                    <label>Viesti</label>
                     <input class="w3-input w3-border" type="text" name="Message" required>
                 </div>
-                <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send Message</button>
+                <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Lähetä viesti</button>
             </form>
         </div>
 
